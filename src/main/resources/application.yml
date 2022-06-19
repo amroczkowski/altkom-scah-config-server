@@ -3,4 +3,10 @@ server:
 spring:
   application:
     name: config-server
-
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/amroczkowski/altkom-scah-configuration
+          clone-on-start: true
+          search-paths: ['{application}/{profile}','{application}']
