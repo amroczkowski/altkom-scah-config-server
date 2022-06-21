@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/amroczkowski/altkom-scah-configuration
+          uri: https://github.com/amroczkowski/altkom-scah-configuration-docker
           clone-on-start: true
